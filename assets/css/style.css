@@ -87,7 +87,7 @@ a {
   color: #333;
   background-color: #eee;
   text-align: center;
-  padding: 0.75em 0.875em;
+  padding: 0.75em 5em;
   border-radius: 0.8rem;
   text-decoration: none;
   /* font-size: 1.0625rem; */
@@ -115,21 +115,8 @@ a {
   font-size: 0.96rem;
 }
 
-.search-wrapper input {
-  padding-left: 30px; /* Adjust to make space for the icon */
-}
-
-/* .search-nav input[type="text"] {
-  padding: 0.6em;
-  border: none;
-  margin-top: 2.1rem;
-  border-radius: 0.3rem;
-  font-size: 1.0625rem;
-  background-color: #c2c1c1;
-} */
-
 .search-main {
-  border: #000000 1.5px solid;
+  border: #959595 1px solid;
 }
 /* searchBar css */
 
@@ -460,15 +447,15 @@ a {
   color: #333;
   background-color: #eee;
   text-align: center;
-  padding: 0.75em 0.875em;
+  padding: 0.75em 5em;
   border-radius: 0.8rem;
   text-decoration: none;
   /* font-size: 1.0625rem; */
-  font-size: 0.8vw;
+  font-size: 0.96rem;
   margin-top: 2rem;
   font-weight: 900;
   border: none;
-  border: #000000 1px solid;
+  border: #959595 1px solid;
 }
 
 .login-field:hover {
