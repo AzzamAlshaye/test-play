@@ -23,7 +23,6 @@ a {
 
 /* html styling */
 
-/* Navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -82,55 +81,32 @@ a {
 }
 
 /* searchBar css */
-.search-nav {
+.search-nav a {
   float: right;
   display: flex;
-  color: #333;
-  background-color: #eee;
+  color: black;
   text-align: center;
   padding: 0.75em 0.875em;
-  border-radius: 0.8rem;
   text-decoration: none;
-  /* font-size: 1.0625rem; */
-  font-size: 0.8em;
-  margin-top: 2rem;
-  font-weight: 900;
-  border: none;
+  font-size: 1.0625rem;
 }
 
-.search-nav:hover {
-  background-color: #ffffff;
+.search-nav a:hover {
+  background-color: #ddd;
   color: black;
 }
-.search-wrapper {
-  position: relative;
-  display: inline-block;
-}
 
-.search-wrapper i {
-  position: absolute;
-  left: 10px;
-  top: 70%;
-  transform: translateY(-50%);
-  color: #888;
-  font-size: 0.8em;
-}
-
-.search-wrapper input {
-  padding-left: 30px; /* Adjust to make space for the icon */
-}
-
-/* .search-nav input[type="text"] {
+.search-nav input[type="text"] {
   padding: 0.6em;
   border: none;
   margin-top: 2.1rem;
   border-radius: 0.3rem;
   font-size: 1.0625rem;
-  background-color: #c2c1c1;
-} */
+  background-color: #e0e0e0;
+}
 
-.search-main {
-  border: #000000 1.5px solid;
+.search-main input[type="text"] {
+  background-color: #ffffff;
 }
 /* searchBar css */
 
