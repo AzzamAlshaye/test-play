@@ -3,15 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Success</title>
+
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="/assets/images/logo-transparent.png"
+      type="image/x-icon"
+    />
+    <title>Success | Wikipedia</title>
+    <style>
+      .message {
+        display: none;
+        text-align: center;
+        margin-top: 5rem;
+      }
+
+      /* When URL has #login */
+      #login:target {
+        display: block;
+      }
+
+      /* When URL has #register */
+      #register:target {
+        display: block;
+      }
+    </style>
   </head>
   <body>
     <div class="register-wrapper">
-      <div class="register-main">
+      <div id="login" class="register-main message">
         <h2>Logged In Successfully!</h2>
-        <p>Welcome back to Wikipedia!</p>
-        <a href="index.html" class="btn">Go to Home</a>
+        <p style="margin-bottom: 2rem">Welcome back to Wikipedia!</p>
+        <a href="index.html" class="btn btn-login">Go to Home</a>
+      </div>
+
+      <div id="register" class="register-main message">
+        <h2>Registered Successfully!</h2>
+        <p style="margin-bottom: 2rem">
+          Your account has been created successfully!
+        </p>
+        <a href="index.html" class="btn btn-login">Go to Home</a>
       </div>
     </div>
   </body>
