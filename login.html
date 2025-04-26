@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Log In</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="left-section">
+        <img
+          class="nav-logo"
+          src="./assets/images/logo-transparent.png"
+          alt="Wikipedia-logo"
+        />
+
+        <div class="nav-links hero-nav">
+          <li>
+            <a href="index.html" class="btn-left btn-selected">Home</a>
+          </li>
+          <li>
+            <a href="trending.html" class="btn-left">Trending</a>
+          </li>
+        </div>
+      </div>
+      <div class="search-wrapper">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="search" class="search-nav" placeholder="Search.." />
+      </div>
+
+      <div class="nav-links right-section">
+        <a href="./register.html" class="btn">Register</a>
+        <a href="./login.html" class="btn btn-login">Log In</a>
+      </div>
+    </header>
+
+    <div class="register-wrapper">
+      <div class="register-main">
+        <h2>Welcome Back!</h2>
+        <p>Log in to continue</p>
+      </div>
+
+      <form
+        class="register-card wiki-card-login"
+        action="#"
+        method="post"
+        style="width: 100%; max-width: 30rem"
+      >
+        <input
+          type="email"
+          name="email"
+          placeholder="Email"
+          class="login-field"
+        />
+        <input
+          type="password"
+          name="password"
+          placeholder="Password"
+          class="login-field"
+          style="margin-bottom: 2rem"
+        />
+        <button type="submit" class="btn btn-login full">Log In</button>
+      </form>
+    </div>
+  </body>
+</html>

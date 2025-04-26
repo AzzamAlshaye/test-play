@@ -501,3 +501,64 @@ a {
 }
 
 /* footer end */
+
+/* Register/login Hero */
+.register-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.register-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Register Hero */
+.register-main {
+  text-align: center;
+  padding: 4em 0;
+}
+
+.register-main h2 {
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+}
+.register-main p {
+  font-size: 1.4rem;
+}
+.login-field {
+  float: right;
+  display: flex;
+  color: #333;
+  background-color: #eee;
+  text-align: center;
+  padding: 0.75em 0.875em;
+  border-radius: 0.8rem;
+  text-decoration: none;
+  /* font-size: 1.0625rem; */
+  font-size: 0.8vw;
+  margin-top: 2rem;
+  font-weight: 900;
+  border: none;
+  border: #000000 1px solid;
+}
+
+.login-field:hover {
+  background-color: #ffffff;
+  color: black;
+}
+.wiki-card-login {
+  background-color: #ffffff;
+  padding: 1.5em;
+  border-radius: 0.75rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+  border: 0.05rem solid #ddd;
+  max-width: 36rem;
+}
+/* Register/login Hero */
